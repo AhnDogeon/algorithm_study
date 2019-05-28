@@ -5,7 +5,7 @@ sys.stdin = open('17143_낚시왕.txt', 'r')
 
 R, C, M = map(int, input().split())
 
-catch = 0
+shark = 0
 
 board = []
 for i in range(R):
@@ -24,87 +24,99 @@ if M:
 else:
     print(0)
 
-
-# 디버깅-----------------
-for a in range(R):
-    for b in range(C):
-        print(board[a][b], end=' ')
-    print()
-# 디버깅-----------------
+#
+# # 디버깅-----------------
+# for a in range(R):
+#     for b in range(C):
+#         print(board[a][b], end=' ')
+#     print()
+# # 디버깅-----------------
 
 def catch(x):
-    global catch
+    global shark
     for y in range(R):
-        if board[x][y][2]:
-            catch += 1
-            board[x][y] = [0, 0, 0]
-        break
+        if board[y][x][2]:
+            shark += board[y][x][2]
+            board[y][x] = [0, 0, 0]
+            break
 
 def move(board, copy_board):
     for i in range(R):
         for j in range(C):
+            current_i = i
+            current_j = j
             if board[i][j][2]:
-                current_i = i
-                current_j = j
                 if board[i][j][1] == 1:
                     v = board[i][j][0] # 몇 칸 이동해야하는지
                     while v:
-                        if v - current_j >= 0:
-                            v = v - current_j
-                            current_j = 0
+                        if v - current_i >= 0:
+                            v = v - current_i
+                            current_i = 0
+                            board[i][j][1] = 2
                             if v == 0:
+                                # board[i][j][1] = 1
                                 break
                         else:
-                            current_j = current_j - v
+                            current_i = current_i - v
                             v = 0
                             break
-                        if v - current_j >= 0:
-                            v = v - current_j
-                            current_j = R - 1
+                        if v - (R - 1) >= 0:
+                            v = v - (R - 1)
+                            current_i = R - 1
+                            board[i][j][1] = 1
                             if v == 0:
+                                # board[i][j][1] = 2
                                 break
                         else:
-                            current_j = v
+                            current_i = v
                             break
                 elif board[i][j][1] == 2:
                     v = board[i][j][0] # 몇 칸 이동해야하는지
                     while v:
-                        if v - (R - 1 - current_j) >= 0:
-                            v = v - (R - 1 - current_j)
-                            current_j = R - 1
+                        if v - (R - 1 - current_i) >= 0:
+                            v = v - (R - 1 - current_i)
+                            current_i = R - 1
+                            board[i][j][1] = 1
                             if v == 0:
+                                # board[i][j][1] = 2
+                                break
+                        else:
+                            current_i = current_i + v
+                            v = 0
+                            break
+                        if v - (R - 1) >= 0:
+                            v = v - (R - 1)
+                            current_i = 0
+                            board[i][j][1] = 2
+                            if v == 0:
+                                # board[i][j][1] = 1
+                                break
+                        else:
+                            current_i = R - 1 - v
+                            break
+                elif board[i][j][1] == 3:
+                    v = board[i][j][0] # 몇 칸 이동해야하는지
+                    while v:
+                        if v - (C - 1 - current_j) >= 0:
+                            v = v - (C - 1 - current_j)
+                            current_j = C - 1
+                            board[i][j][1] = 4
+                            if v == 0:
+                                # board[i][j][1] = 3
                                 break
                         else:
                             current_j = current_j + v
                             v = 0
                             break
-                        if v - current_j >= 0:
-                            v = v - current_j
-                            current_j = R - 1
-                            if v == 0:
-                                break
-                        else:
-                            current_j = v
-                            break
-                elif board[i][j][1] == 3:
-                    v = board[i][j][0] # 몇 칸 이동해야하는지
-                    while v:
-                        if v - current_j >= 0:
-                            v = v - current_j
+                        if v - (C - 1) >= 0:
+                            v = v - (C - 1)
                             current_j = 0
+                            board[i][j][1] = 3
                             if v == 0:
+                                # board[i][j][1] = 4
                                 break
                         else:
                             current_j = current_j - v
-                            v = 0
-                            break
-                        if v - current_j >= 0:
-                            v = v - current_j
-                            current_j = R - 1
-                            if v == 0:
-                                break
-                        else:
-                            current_j = v
                             break
                 elif board[i][j][1] == 4:
                     v = board[i][j][0] # 몇 칸 이동해야하는지
@@ -112,30 +124,74 @@ def move(board, copy_board):
                         if v - current_j >= 0:
                             v = v - current_j
                             current_j = 0
+                            board[i][j][1] = 3
                             if v == 0:
+                                # board[i][j][1] = 4
                                 break
                         else:
                             current_j = current_j - v
                             v = 0
                             break
-                        if v - current_j >= 0:
-                            v = v - current_j
-                            current_j = R - 1
+                        if v - (C - 1) >= 0:
+                            v = v - (C - 1)
+                            current_j = C - 1
+                            board[i][j][1] = 4
                             if v == 0:
+                                # board[i][j][1] = 3
                                 break
                         else:
                             current_j = v
                             break
+                if copy_board[current_i][current_j] == [0, 0, 0]:
+                    copy_board[current_i][current_j] = board[i][j]
+                else:
+                    if copy_board[current_i][current_j][2] < board[i][j][2]:
+                        copy_board[current_i][current_j] = board[i][j]
+                    else:
+                        pass
+                board[i][j] = [0, 0, 0]
 
+if M:
+    for x in range(C):
+        # print('============== 잡기 전 ==========================')
+        # # 디버깅-----------------
+        # for a in range(R):
+        #     for b in range(C):
+        #         print(board[a][b], end=' ')
+        #     print()
+        # # 디버깅-----------------
+        catch(x) # 잡는함수()
+        # print('==================잡은 후=========================')
+        # # 디버깅-----------------
+        # for a in range(R):
+        #     for b in range(C):
+        #         print(board[a][b], end=' ')
+        #     print()
+        # # 디버깅-----------------
+        # print('===========================================')
+        copy_board = []
+        for i in range(R):
+            line = []
+            for j in range(C):
+                info = [0, 0, 0]
+                line.append(info)
+            copy_board.append(line)
+        # print('===============이동 전============================')
+        # # 디버깅-----------------
+        # for a in range(R):
+        #     for b in range(C):
+        #         print(board[a][b], end=' ')
+        #     print()
+        # # 디버깅-----------------
+        move(board, copy_board) # 상어이동함수()
+        # print('=================이동후==========================')
+        board = copy.deepcopy(copy_board)
+        # 디버깅-----------------
+        # for a in range(R):
+        #     for b in range(C):
+        #         print(board[a][b], end=' ')
+        #     print()
+        # # 디버깅-----------------
+        # print('===========================================')
 
-for x in range(C):
-    catch(x) # 잡는함수()
-    copy_board = []
-    for i in range(R):
-        line = []
-        for j in range(C):
-            info = [0, 0, 0]
-            line.append(info)
-        copy_board.append(line)
-    move(board, copy_board) # 상어이동함수()
-    board = copy.deepcopy(copy_board)
+    print(shark)
