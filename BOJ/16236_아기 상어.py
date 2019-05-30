@@ -78,9 +78,10 @@ while catch:
         if eat == size:
             size += 1
             eat = 0
-        if size >= 15:
-            break
+
         board[current_i][current_j] = 0
+        if size >= 7:
+            size = 7
         current_i = catch[0][0]
         current_j = catch[0][1]
         board[current_i][current_j] = 9
