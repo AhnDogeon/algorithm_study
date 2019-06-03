@@ -153,22 +153,7 @@ def move(board, copy_board):
 
 if M:
     for x in range(C):
-        # print('============== 잡기 전 ==========================')
-        # # 디버깅-----------------
-        # for a in range(R):
-        #     for b in range(C):
-        #         print(board[a][b], end=' ')
-        #     print()
-        # # 디버깅-----------------
         catch(x) # 잡는함수()
-        # print('==================잡은 후=========================')
-        # # 디버깅-----------------
-        # for a in range(R):
-        #     for b in range(C):
-        #         print(board[a][b], end=' ')
-        #     print()
-        # # 디버깅-----------------
-        # print('===========================================')
         copy_board = []
         for i in range(R):
             line = []
@@ -176,13 +161,6 @@ if M:
                 info = [0, 0, 0]
                 line.append(info)
             copy_board.append(line)
-        # print('===============이동 전============================')
-        # # 디버깅-----------------
-        # for a in range(R):
-        #     for b in range(C):
-        #         print(board[a][b], end=' ')
-        #     print()
-        # # 디버깅-----------------
         move(board, copy_board) # 상어이동함수()
         # print('=================이동후==========================')
         board = copy.deepcopy(copy_board)
