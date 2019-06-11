@@ -149,3 +149,20 @@ def full(depth):
 
 full(0)
 
+MAX = 0
+for x in range(len(result)):
+    copy_board = deepcopy(board)
+    for y in range(len(result[x])):
+        if result[x][y] == 1:
+            copy_board = up(copy_board)
+        elif result[x][y] == 2:
+            copy_board = down(copy_board)
+        elif result[x][y] == 3:
+            copy_board = left(copy_board)
+        elif result[x][y] == 4:
+            copy_board = right(copy_board)
+    for z in copy_board:
+        if max(z) >= MAX:
+            MAX = max(z)
+
+print(MAX)
