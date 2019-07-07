@@ -41,4 +41,4 @@ for i in range(N):
 
 while True:
     for direc in diff:
-        
+
