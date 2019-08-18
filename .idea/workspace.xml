@@ -5,6 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/ad_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.txt" afterDir="false" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +28,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
               <caret line="47" column="22" lean-forward="true" selection-end-line="47" selection-end-column="22" />
+=======
+        <entry file="file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="4" selection-start-column="4" selection-end-column="4" />
+=======
+        <entry file="file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
             </state>
           </provider>
         </entry>
@@ -80,6 +102,7 @@
         <option value="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" />
         <option value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.txt" />
         <option value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py" />
         <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt" />
         <option value="$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).txt" />
@@ -90,6 +113,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+        <option value="$PROJECT_DIR$/SWEA/7102_준홍이의 카드놀이.py" />
+        <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py" />
+        <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt" />
+        <option value="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.txt" />
+        <option value="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -109,7 +143,16 @@
             <path>
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="CODEUP" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
             </path>
           </expand>
           <select />
@@ -139,8 +182,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.3120_리모컨(그리디)">
     <configuration name="14889_스타트와 링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.17406_배열 돌리기4">
+    <configuration name="13460_구슬탈출2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <module name="ad_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +201,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +214,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="2001-최소대금(그리디)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="14889_스타트와 링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <module name="ad_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +231,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.py" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +244,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="3120_리모컨(그리디)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="17406_배열 돌리기4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <module name="ad_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +261,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,11 +320,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.3120_리모컨(그리디)" />
         <item itemvalue="Python.2001-최소대금(그리디)" />
         <item itemvalue="Python.4371_항구에 들어오는 배" />
         <item itemvalue="Python.14889_스타트와 링크" />
         <item itemvalue="Python.codecs" />
+=======
+        <item itemvalue="Python.17406_배열 돌리기4" />
+        <item itemvalue="Python.4371_항구에 들어오는 배" />
+        <item itemvalue="Python.14889_스타트와 링크" />
+        <item itemvalue="Python.codecs" />
+        <item itemvalue="Python.13460_구슬탈출2" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       </list>
     </recent_temporary>
   </component>
@@ -283,13 +359,22 @@
       <workItem from="1561288384119" duration="1401000" />
       <workItem from="1561289808584" duration="4843000" />
       <workItem from="1562480091828" duration="6541000" />
+<<<<<<< HEAD
       <workItem from="1563970336472" duration="5244000" />
       <workItem from="1564051070303" duration="2212000" />
       <workItem from="1566113887930" duration="4775000" />
+=======
+      <workItem from="1563524681495" duration="1897000" />
+      <workItem from="1564050750435" duration="1094000" />
+      <workItem from="1564124019968" duration="4308000" />
+      <workItem from="1565687062613" duration="4047000" />
+      <workItem from="1565743892854" duration="7215000" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="113960000" />
   </component>
   <component name="ToolWindowManager">
@@ -297,12 +382,26 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35228848" />
+=======
+    <option name="totallyTimeSpent" value="120290000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32171583" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34893617" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33094555" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34419262" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -404,6 +503,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py</url>
+<<<<<<< HEAD
           <line>14</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -411,26 +511,52 @@
           <url>file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py</url>
           <line>8</line>
           <option name="timeStamp" value="26" />
+=======
+          <line>12</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="35" />
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ad_study$14500_.coverage" NAME="14500_테트로미노 Coverage Results" MODIFIED="1559891593527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/ad_study$16236__.coverage" NAME="16236_아기 상어 Coverage Results" MODIFIED="1559193907503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/algorithm_study$12100_2048_EASY_.coverage" NAME="12100_2048(EASY) Coverage Results" MODIFIED="1560229430071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/ad_study$17143_.coverage" NAME="17143_낚시왕 Coverage Results" MODIFIED="1559635456673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/ad_study$17140___.coverage" NAME="17140_이차원 배열과 연산 Coverage Results" MODIFIED="1559293917339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/ad_study$17142_3.coverage" NAME="17142_연구소3 Coverage Results" MODIFIED="1559633174249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/algorithm_study$3190_.coverage" NAME="3190_뱀 Coverage Results" MODIFIED="1560239515525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/ad_study$comb.coverage" NAME="comb Coverage Results" MODIFIED="1559633774154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
-    <SUITE FILE_PATH="coverage/algorithm_study$13460_2.coverage" NAME="13460_구슬탈출2 Coverage Results" MODIFIED="1561296287529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/algorithm_study$14889__.coverage" NAME="14889_스타트와 링크 Coverage Results" MODIFIED="1562490621136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/ad_study$17144___.coverage" NAME="17144_미세먼지 안녕! Coverage Results" MODIFIED="1559201288300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/algorithm_study$13458_.coverage" NAME="13458_시험감독 Coverage Results" MODIFIED="1560231575937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/algorithm_study$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1562486919502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python37/Lib" />
+    <SUITE FILE_PATH="coverage/algorithm_study$12100_2048_EASY_.coverage" NAME="12100_2048(EASY) Coverage Results" MODIFIED="1560229430071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$17406__4.coverage" NAME="17406_배열 돌리기4 Coverage Results" MODIFIED="1565751965936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/ad_study$14500_.coverage" NAME="14500_테트로미노 Coverage Results" MODIFIED="1559891593527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$3190_.coverage" NAME="3190_뱀 Coverage Results" MODIFIED="1560239515525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/ad_study$16236__.coverage" NAME="16236_아기 상어 Coverage Results" MODIFIED="1559193907503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/ad_study$17143_.coverage" NAME="17143_낚시왕 Coverage Results" MODIFIED="1559635456673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$4371___.coverage" NAME="4371_항구에 들어오는 배 Coverage Results" MODIFIED="1564128221489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
+    <SUITE FILE_PATH="coverage/ad_study$17140___.coverage" NAME="17140_이차원 배열과 연산 Coverage Results" MODIFIED="1559293917339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$13460_2.coverage" NAME="13460_구슬탈출2 Coverage Results" MODIFIED="1561296287529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$13458_.coverage" NAME="13458_시험감독 Coverage Results" MODIFIED="1560231575937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/ad_study$17142_3.coverage" NAME="17142_연구소3 Coverage Results" MODIFIED="1559633174249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/algorithm_study$.coverage" NAME="중복순열 Coverage Results" MODIFIED="1560151482726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$14889__.coverage" NAME="14889_스타트와 링크 Coverage Results" MODIFIED="1562490621136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/ad_study$7675__.coverage" NAME="7675_통역사 성경이 Coverage Results" MODIFIED="1559539858755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
+    <SUITE FILE_PATH="coverage/ad_study$17144___.coverage" NAME="17144_미세먼지 안녕! Coverage Results" MODIFIED="1559201288300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BOJ/16236_아기 상어.txt">
@@ -631,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BOJ/13460_구슬탈출2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -661,6 +779,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -668,6 +793,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -707,6 +833,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="47" column="22" lean-forward="true" selection-end-line="47" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/SWEA/7102_준홍이의 카드놀이.txt" />
+    <entry file="file://$PROJECT_DIR$/SWEA/7102_준홍이의 카드놀이.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ/17406_배열 돌리기4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+>>>>>>> 752390024fe08d8d9a7f80173284f2529cd81835
         </state>
       </provider>
     </entry>
