@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78326e91-7902-4917-82a9-66146f33cfb8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ad_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,23 +16,26 @@
     <SUITE FILE_PATH="coverage/algorithm_study$6913___.coverage" NAME="6913_동철이의 프로그래밍 대회 Coverage Results" MODIFIED="1560054497916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
     <SUITE FILE_PATH="coverage/algorithm_study$1226_sw__1.coverage" NAME="1226_sw문제해결 기본 미로1 Coverage Results" MODIFIED="1560056834217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
     <SUITE FILE_PATH="coverage/algorithm_study$12100_2048_EASY_.coverage" NAME="12100_2048(EASY) Coverage Results" MODIFIED="1560066583679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
+    <SUITE FILE_PATH="coverage/algorithm_study$3120___.coverage" NAME="3120_리모컨(그리디) Coverage Results" MODIFIED="1566142999573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CODEUP" />
+    <SUITE FILE_PATH="coverage/algorithm_study$4371___.coverage" NAME="4371_항구에 들어오는 배 Coverage Results" MODIFIED="1564052486337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SWEA" />
+    <SUITE FILE_PATH="coverage/algorithm_study$2001___.coverage" NAME="2001-최소대금(그리디) Coverage Results" MODIFIED="1566132541728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CODEUP" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.py">
+        <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="388">
+              <caret line="47" column="22" lean-forward="true" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.txt">
+        <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -76,20 +80,25 @@
         <option value="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" />
         <option value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.txt" />
         <option value="$PROJECT_DIR$/BOJ/14889_스타트와 링크.py" />
+        <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py" />
+        <option value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt" />
+        <option value="$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).txt" />
+        <option value="$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).py" />
+        <option value="$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).txt" />
+        <option value="$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,17 +109,13 @@
             <path>
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="SWEA" type="462c0819:PsiDirectoryNode" />
+              <item name="CODEUP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,7 +125,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,51 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14889_스타트와 링크">
-    <configuration name="13458_시험감독" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ad_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/13458_시험감독.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13460_구슬탈출2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ad_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/13460_구슬탈출2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.3120_리모컨(그리디)">
     <configuration name="14889_스타트와 링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ad_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3190_뱀" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2001-최소대금(그리디)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ad_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +170,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CODEUP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/3190_뱀.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3120_리모컨(그리디)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ad_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CODEUP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4371_항구에 들어오는 배" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ad_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3120_리모컨(그리디)" />
+        <item itemvalue="Python.2001-최소대금(그리디)" />
+        <item itemvalue="Python.4371_항구에 들어오는 배" />
         <item itemvalue="Python.14889_스타트와 링크" />
         <item itemvalue="Python.codecs" />
-        <item itemvalue="Python.13460_구슬탈출2" />
-        <item itemvalue="Python.3190_뱀" />
-        <item itemvalue="Python.13458_시험감독" />
       </list>
     </recent_temporary>
   </component>
@@ -278,23 +283,26 @@
       <workItem from="1561288384119" duration="1401000" />
       <workItem from="1561289808584" duration="4843000" />
       <workItem from="1562480091828" duration="6541000" />
+      <workItem from="1563970336472" duration="5244000" />
+      <workItem from="1564051070303" duration="2212000" />
+      <workItem from="1566113887930" duration="4775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101729000" />
+    <option name="totallyTimeSpent" value="113960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41356674" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35228848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33296824" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3493976" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3248227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34893617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -313,13 +321,13 @@
       <window_info anchor="right" id="R Packages" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30415756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3581599" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34893617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -327,13 +335,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +401,16 @@
           <url>file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.py</url>
           <line>36</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py</url>
+          <line>8</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -633,10 +653,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/codecs.py">
+    <entry file="file://C:/Python37/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="315" column="55" lean-forward="true" selection-start-line="315" selection-start-column="55" selection-end-line="315" selection-end-column="55" />
+        <state relative-caret-position="84">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -647,10 +668,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOJ/14889_스타트와 링크.py">
+    <entry file="file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SWEA/4371_항구에 들어오는 배.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODEUP/2001-최소대금(그리디).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODEUP/3120_리모컨(그리디).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="47" column="22" lean-forward="true" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
