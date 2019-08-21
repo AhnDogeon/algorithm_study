@@ -22,7 +22,7 @@ def johap(k, n, bits):
     if k == n:
         for i in range(len(bits)):
             if bits[i]:
-                
+
             else:
                 pass
         return
