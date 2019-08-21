@@ -10,8 +10,8 @@ for _ in range(N):
     visit_board.append([False]*N)
 
 diff = [(0, -1),(1, 0),(0, 1),(-1, 0)]
-def DFS(i, j, result, maxresult):
-    global board, visit_board
+def DFS(i, j, final_result):
+    global board, visit_board, result
     visit_board[i][j] = True
     board[i][j] = '0'
     for (a, b) in diff:
@@ -21,7 +21,8 @@ def DFS(i, j, result, maxresult):
                 visit_board[di][dj] = True
                 board[di][dj] = '0'
                 result += 1
-                DFS(di, dj, result, final_result)
+                DFS(di, dj, final_result)
+    # print(result)
     final_result.append(result)
 
 count = 0
@@ -31,10 +32,15 @@ for x in range(N):
         if board[x][y] == '1':
             final_result = []
             result = 1
-            DFS(x, y, result, final_result)
+            DFS(x, y, final_result)
             count += 1
             final.append(max(final_result))
+        result = 1
 
 print(count)
-for _ in range(len(final)):
-    print(final[_])
+final.sort()
+if final:
+    for _ in range(len(final)):
+        print(final[_])
+else:
+    print(0)
