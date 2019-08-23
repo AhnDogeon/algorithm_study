@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfcc0ee5-42b7-49b8-8895-4d05449c9fcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/보충/DFS/BOJ_2636_치즈.py" beforeDir="false" afterPath="$PROJECT_DIR$/보충/DFS/BOJ_2636_치즈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/보충/DFS/BOJ_2636_치즈.txt" beforeDir="false" afterPath="$PROJECT_DIR$/보충/DFS/BOJ_2636_치즈.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +12,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-      </list>
-    </option>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -114,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566380147056</updated>
-      <workItem from="1566530947489" duration="5797000" />
+      <workItem from="1566530947489" duration="7467000" />
     </task>
     <servers />
   </component>
