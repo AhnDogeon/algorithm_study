@@ -15,7 +15,7 @@ for x in range(N):
 ice_count = 0
 time = 0
 
-diff = [(-1, 0), (0, 1), (1, 0), (0, 1)]
+diff = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
 
 def DFS(n, m):
@@ -54,7 +54,7 @@ while True:
         for i in range(N):
             for j in range(M):
                 if board[i][j]:
-                    zero_cnt = zero_count(i,j)
+                    zero_cnt = zero_count(i, j)
                     if zero_cnt >= board[i][j]:
                         copy_ice[i][j] = 0
                     else:
@@ -62,8 +62,11 @@ while True:
         for e in range(N):
             for f in range(M):
                 board[e][f] = copy_ice[e][f]
-                if board[e][f]:
-                    visit[e][f] = True
+
+        for e in range(N):
+            for f in range(M):
+                if board[e][f] != 0:
+                    visit[e][f] = False
                     flag = True
 
         if flag == False:
