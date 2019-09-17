@@ -12,7 +12,7 @@ for _ in range(10):
 
 paper_list = [5, 5, 5, 5, 5] # 0 : 5x5 1 : 4x4 2: 3X3 3: 2x2 4: 1x1
 def check(i, j, size):
-    for check_x in range(5-size):.
+    for check_x in range(5-size):
         for check_y in range(5-size):
             if 0 <= i+check_x < 10 and 0 <= j+check_y < 10:
                 if board[i+check_x][j+check_y] == 0:
