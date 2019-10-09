@@ -1,32 +1,24 @@
-def solution(vote):
+def solution(begin, target, words):
     answer = 0
-    real_visit = [False] * len(vote)
-    visit = [False] * len(vote)
-    for start in range(len(real_visit)):
-        if real_visit[start] == False:
-            result = DFS(start, vote, visit, real_visit, start, False)
-            if result == 3:
-                answer += 1
-            else:
-                pass
-        visit = [False] * len(vote)
+    if target not in words:
+        return 0
+    t = 0
+    Que = [begin]
+    arr = []
+    while t < len(target):
+        v = Que.pop(0)
+        for i in range(len(v)):
+            tmp = v[i]
+            v = v.replace(v[i], target[i])
+            if v in words:
+                arr.append(v)
+            v = v.replace(v[i], tmp)
+        if target in arr:
+            answer = t
+            break
+        t += 1
+        Que = arr
+
     return answer
 
-
-def DFS(v, vote, visit, real_visit, start, isend):
-    real_visit[v] = True
-    if v == start and isend == True:
-        return visit.count(True)
-    else:
-        if visit[v] == False:
-            visit[v] = True
-            k = DFS(vote[v]-1, vote, visit, real_visit, start, True)
-        elif visit[v] == True:
-            true_cnt = visit.count(True)
-            return true_cnt
-        else:
-            k = 0
-        return k
-
-dap  = solution([2,3,1,3,4])
-print(dap)
+solution('hit',	'cog', ['hot', 'dot', 'dog', 'lot', 'log', 'cog'])
