@@ -9,7 +9,6 @@ for a in range(N):
 
 MAX = 0
 diff = [(0, -1), (1, 0), (0, 1), (-1, 0)]
-
 def DFS(i, j, total, cnt):
     global MAX, board
     if cnt == 4:
