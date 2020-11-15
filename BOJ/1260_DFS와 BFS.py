@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('1260_DFS와 BFS.txt', 'r')
 
-N, M, V = map(int, input().split6())
+N, M, V = map(int, input().split())
 
 # N 정점의 개수
 # M 간선의 개수
